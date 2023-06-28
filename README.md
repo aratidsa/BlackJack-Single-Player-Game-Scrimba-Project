@@ -11,7 +11,7 @@
 - If the sum of the cards is less than 21 you can add a new card.
 - The player can also start a new game.
   
-**Live URL :-** https://password-generator-design.netlify.app/
+**Live URL :-** https://blackjack-game-design.netlify.app
 
 **ScreenShots**
 

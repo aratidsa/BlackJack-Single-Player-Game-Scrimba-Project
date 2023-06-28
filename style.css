@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("blackJack.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Caprasimo', cursive;       
+}
+
+.container
+{
+    background-color: #424044;
+    width:500px;
+    height:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:200px;
+    flex-direction: column;
+    border-radius:10px;
+}
+
+.heading
+{
+    font-size:25px;
+    color:#1D1F24;
+    text-shadow: 1px 1px white;
+}
+
+.message-details
+{
+    margin-top:10px;
+    color:rgb(93, 118, 159);
+    font-size:22px;
+}
+.game-cards
+{
+  margin-top:20px;
+  font-size: 25px;
+  color:beige;
+}
+.total
+{
+    margin-top:5px;
+}
+.all-btn
+{
+    margin-top:30px;
+}
+
+button
+{
+    width:150px;
+    height:30px;
+    font-family: 'Caprasimo', cursive;   
+    font-size:18px;
+    background-color: rgb(113, 145, 196);
+    border:none;
+    border-radius: 10px;
+    color:#1D1F24;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkgray;
+}
+
+@media screen and (max-width:600px){
+   .container
+   {
+    width:350px;
+    height:380px;
+    margin-top:100px;
+   }
+
+   .heading
+   {
+    font-size:20px;
+    margin-top:-20px;
+   }
+   .message-details
+   {
+    font-size:18px;
+   }
+   .all-btn
+  {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+   button
+   {
+    width:200px;
+    height:40px;
+    font-size:20px;
+    margin-bottom:10px;
+   }
+}

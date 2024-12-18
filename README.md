@@ -7,7 +7,7 @@
 
 **Working of the game:-**
 - To win BlackJack Game the Player has to get cards whose sum is equal to 21.
-- If the sum of the cards are nore than 21 you lose the game.
+- If the sum of the cards are more than 21 you lose the game.
 - If the sum of the cards is less than 21 you can add a new card.
 - The player can also start a new game.
   
